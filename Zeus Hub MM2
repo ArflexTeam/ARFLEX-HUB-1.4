@@ -1,0 +1,32 @@
+print("ZeusHub MM2.EXE LOADER...")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Emoli5y/shadow/main/Kavo%20ui"))()
+local Window = Library.CreateLib("Zeus Hub MM2 | Made By ArflexTeam", "Synapse")
+
+local Tab = Window:NewTab("Script")
+
+local Section = Tab:NewSection("Button")
+
+Section:NewButton("Mm2_esp.exe", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
+
+end)
+
+Section:NewButton("Speed_20.exe", "ButtonInfo", function()
+    
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 20
+
+end)
+
+Section:NewButton("Speed_30.exe", "ButtonInfo", function()
+    
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 30
+
+end)
+
+Section:NewButton("Speed_50.exe", "ButtonInfo", function()
+    
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+
+end)
+
