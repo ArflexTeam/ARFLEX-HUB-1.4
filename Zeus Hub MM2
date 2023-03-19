@@ -1,6 +1,6 @@
 print("ZeusHub MM2.EXE LOADER...")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Emoli5y/shadow/main/Kavo%20ui"))()
-local Window = Library.CreateLib("Zeus Hub MM2 | Made By ArflexTeam", "Synapse")
+local Window = Library.CreateLib("Zeus Hub MM2 | Made By ArflexTeam", "BloodTheme")
 
 local Tab = Window:NewTab("Script")
 
