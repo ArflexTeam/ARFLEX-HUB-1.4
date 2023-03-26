@@ -6,27 +6,34 @@ local Tab = Window:NewTab("Script")
 
 local Section = Tab:NewSection("Button")
 
-Section:NewButton("Mm2_esp.exe", "ButtonInfo", function()
+Section:NewButton("MM2 ESP", "ButtonInfo", function()
     
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
 
 end)
 
-Section:NewButton("Speed_20.exe", "ButtonInfo", function()
-    
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 20
-
+Section:NewTextBox("Set Walkspeed","Rare kavo UI walkspeed setter", function(txt) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
 end)
 
-Section:NewButton("Speed_30.exe", "ButtonInfo", function()
-    
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 30
+Section:NewTextBox("Hitbox Expendar","Increases JP", function(txt)
 
+_G.HeadSize = txt
+_G.Disabled = true
+
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.7
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
 end)
 
-Section:NewButton("Speed_50.exe", "ButtonInfo", function()
-    
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
-
 end)
-
