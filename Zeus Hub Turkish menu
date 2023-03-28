@@ -1,0 +1,154 @@
+print("ZeusHub Loader V.4.9...")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Emoli5y/shadow/main/Kavo%20ui"))()
+local Window = Library.CreateLib("Zeus Hub | Made By ArflexTeam", "Ocean")
+
+local Tab = Window:NewTab("Script")
+
+local Section = Tab:NewSection("Zeus Hub v.4.8")
+
+Section:NewButton("Brookhevan Efsane", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+
+end)
+
+Section:NewButton("ZEUS HUB | MM2 HİLESİ", "ButtonInfo", function()
+    
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ArflexTeam/ARFLEX-HUB-1.4/main/Zeus%20Hub%20MM2'))()
+
+end)
+
+Section:NewButton("Reviz yetkili", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Reviz-Admin-FE_156", true))()
+
+end)
+
+Section:NewButton("Intifite yield", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+
+end)
+
+Section:NewButton("Bedava animasyon", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Animation-Changer-1441", true))()
+
+end)
+
+Section:NewButton("Sınırsız zıplama", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+
+end)
+
+Section:NewButton(" Korblox bedava", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-65-roux-Korblox-Script-9734", true))()
+
+end)
+
+Section:NewButton("Sahte mesaj 3.5", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Chat-Hax-V3.5-3512", true))()
+
+end)
+
+Section:NewButton("Fly güI v2 mobil ve pc", "ButtonInfo", function()
+
+    --ARCEUS X FLY V2 SCRIPT
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")() 
+
+end) 
+
+Section:NewButton("Arsenal OP (HATA GİTİ) ", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Da-Hood-Pwner-hub-6528", true))()
+
+end)
+
+Section:NewButton(" Btools tek sizde gözükür", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+
+end)
+
+Section:NewButton("Prison Life Sınırsız Enerji", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Prison-Life-(Cars-fixed!)-Inf-Stamina-NO-BUGS-4782", true))()
+
+end)
+
+Section:NewButton("Shiftlock", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Shiftlock-Mobile-8892"))()
+
+end)
+
+Section:NewButton("Zombie Attack (BOZUK)", "ButtonInfo", function()
+    
+print(" nice gay hub") 
+
+end)
+
+Section:NewButton("Zeus Hub | Bedava eşya (!BETA!)", "ButtonInfo", function()
+    
+print("ZeusHub Loader...")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Emoli5y/shadow/main/Kavo%20ui"))()
+local Window = Library.CreateLib("Zeus Hub Avatar Changer | Made By ArflexTeam", "Synapse")
+
+local Tab = Window:NewTab("Free item OP")
+
+local Section = Tab:NewSection("Free")
+
+Section:NewButton("free valkrie", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-ChatGPT-black-valk-giver-9808"))()
+
+end)
+
+Section:NewButton("Dominus Spawner", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Block-Builder-9097"))()
+
+end)
+
+Section:NewButton("Free animation", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Free-Bundles-R15-3356"))()
+
+end)
+
+end)
+
+Section:NewButton("TPS: sokak futbolu Efsane", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://scriptblox.com/raw/TPS:-Street-Soccer-Street-Soccer-8097"))()
+
+end)
+
+Section:NewButton("Zeus Hub | CHAOS HİLESİ", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArflexTeam/ARFLEX-HUB-1.4/main/ZeusHub%20%7C%20CHAOS"))()
+
+end)
+
+Section:NewButton("Herkezde görünür uzun boy", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Big-Head-3841"))()
+
+end)
+
+Section:NewButton("Herkezde görünür büyük kafa", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Big-Head-3840"))()
+
+end)
+
+Section:NewButton("Zombie Attack 2. hilesi", "ButtonInfo", function()
+    
+loadstring(game:HttpGet("https://scriptblox.com/raw/Zombie-Attack-A-very-powerful-script-with-not-alot-of-features-6367"))()
+
+end)
+
+
+
